@@ -1,0 +1,60 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@progress/kendo-licensing": "^1.1.0",
+    "@progress/kendo-react-dialogs": "^4.1.0",
+    "@progress/kendo-theme-default": "^4.26.0",
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/user-event": "^12.2.2",
+    "antd": "^4.8.6",
+    "axios": "^0.21.0",
+    "body-parser": "^1.19.0",
+    "bulma": "^0.9.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "formik": "^2.2.5",
+    "jsonwebtoken": "^8.5.1",
+    "mdbreact": "^4.27.0",
+    "nodemon": "^2.0.6",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.0",
+    "react-bootstrap-easy-dialog": "^0.3.3",
+    "react-dom": "^17.0.1",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "react-textarea-autosize": "^8.3.0",
+    "utils": "^0.3.1",
+    "web-vitals": "^0.2.4",
+    "yup": "^0.31.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

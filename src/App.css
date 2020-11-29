@@ -1,0 +1,57 @@
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)), url("https://images.estately.net/35_RX-10636761_2_1594279311.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  margin-top: 5%;
+  border: 3px solid #ccc;
+  color: white;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 14px 18px 0px, rgba(0, 0, 0, 0.19) 0px 16px 20px 0px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: rgb(255, 253, 209);
+  border-image: initial;
+  padding: 4% 1% 1% 1%;
+}
+
+h1 {
+  font-weight: bolder;
+}
+
+.line {
+  margin-top: 4%;
+  border: 1px solid #FFFDD1;
+}
+
+.btn {
+  margin-right: 1%;
+  background-color: #FFFDD1;
+  color: #56BAEC;
+  font-weight: 1000;
+  border-radius: 10px;
+  padding: 10px 25px 10px 25px;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: #a3c9ce;
+  color: #FFFDD1;
+}
+
+
+span1 {
+  font-family: 'Monoton', cursive;
+  word-spacing: 18px;
+}
+
+.display-1 {
+  font-family: 'Monoton', cursive;
+  color: #FFFDD1;
+  word-spacing: 30px;
+  animation: move;
+
+}

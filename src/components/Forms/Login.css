@@ -1,0 +1,31 @@
+@media all and (min-width: 480px) {
+    .Login {
+        padding: 60px 0;
+    }
+
+    .Login form {
+        margin: 0 auto;
+        max-width: 320px;
+    }
+}
+
+.btn {
+    font-size: x-large;
+    border: none
+}
+
+.log {
+    background-color: #a3c9ce;
+    color: #FFFDD1;
+    font-size: x-large;
+    border: none
+}
+
+.log:hover {
+    background-color: #FFFDD1;
+    color: #a3c9ce
+}
+
+.collection-create-form_last-form-item {
+    margin-bottom: 0;
+}
